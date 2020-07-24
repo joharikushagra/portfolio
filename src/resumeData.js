@@ -94,12 +94,12 @@ let resumeData = {
     {
       name: "Project2",
       description: "Color Guessing Game",
-      url: "http://rgbguess.netlify.app",
+      url: "https://rgbguess.netlify.app/",
     },
     {
       name: "Project3",
       description: "Score-keeper React",
-      url: "http://score-keeperapp.netlify.app",
+      url: "https://score-keeperapp.netlify.app",
     },
     {
       name: "Project4",
