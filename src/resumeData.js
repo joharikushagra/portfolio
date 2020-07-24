@@ -1,106 +1,122 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
-      ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
-    "education":[
-      {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "work":[
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
-  }
-  
-  export default resumeData
+  // "imagebaseurl":"https://rbhatia46.github.io/",
+  name: "Kushagra Johari",
+  role: "emerging Web Developer and Competitive Programmer",
+  linkedinId: "http://www.linkedin.com/in/kushagra-johari-707183191",
+  skypeid: "Your skypeid",
+  roleDescription:
+    "I like to explore the different web based technologies along with designing UIs for frontend.",
+  socialLinks: [
+    {
+      name: "linkedin",
+      url: "http://www.linkedin.com/in/kushagra-johari-707183191",
+      className: "fa fa-linkedin",
+    },
+    {
+      name: "github",
+      url: "http://github.com/joharikushagra",
+      className: "fa fa-github",
+    },
+    // {
+    //   "name":"skype",
+    //   "url":"http://twitter.com/rbhatia46",
+    //   "className":"fa fa-twitter"
+    // }
+  ],
+  aboutme:
+    "I am currently a second year student at Indian Institute of Information Technology Una(H.P) and pursuing my B.Tech from here. I am a self taught Full Stack Web and UI Developer, currently diving deeper into it. I believe that to be learn something new, it is all about the first step you dare to take and after that you are carried by its flow",
+  address: "India",
+  contact: "Contact- 7668987397",
+  email: "Email - skjkushagra1309@gmail.com",
+  education: [
+    {
+      UniversityName: "Indian Institute Of Information Technology Una(H.P)",
+      // "specialization":"Some specialization",
+      MonthOfPassing: "2019-present",
+      // "YearOfPassing":"2023",
+      // "Achievements":"Some Achievements"
+    },
+    // {
+    //   "UniversityName":"Some University",
+    //   "specialization":"Some specialization",
+    //   "MonthOfPassing":"Jan",
+    //   "YearOfPassing":"2018",
+    //   "Achievements":"Some Achievements"
+    // }
+  ],
+  // "work":[
+  //   {
+  //     "CompanyName":"Some Company",
+  //     "specialization":"Some specialization",
+  //     "MonthOfLeaving":"Jan",
+  //     "YearOfLeaving":"2018",
+  //     "Achievements":"Some Achievements"
+  //   },
+  //   {
+  //     "CompanyName":"Some Company",
+  //     "specialization":"Some specialization",
+  //     "MonthOfLeaving":"Jan",
+  //     "YearOfLeaving":"2018",
+  //     "Achievements":"Some Achievements"
+  //   }
+  // ],
+  skillsDescription:
+    "Here I enlist some of my skills that I have and enhancing it more",
+  skills: [
+    {
+      skillname: "C",
+    },
+    {
+      skillname: "JavaScript",
+    },
+    {
+      skillname: "Reactjs",
+    },
+    {
+      skillname: "Photoshop",
+    },
+    {
+      skillname: "Illustrator",
+    },
+    {
+      skillname: "Xd",
+    },
+    {
+      skillname: "python",
+    },
+  ],
+  portfolio: [
+    {
+      name: "Project1",
+      description: "YourPlaces app",
+      url: "http://yourplace-c1729.firebase.com",
+    },
+    {
+      name: "Project2",
+      description: "Color Guessing Game",
+      url: "http://rgbguess.netlify.app",
+    },
+    {
+      name: "Project3",
+      description: "Score-keeper React",
+      url: "http://score-keeperapp.netlify.app",
+    },
+    {
+      name: "Project4",
+      description: "Tic-Tac-Toe (vs CPU version)",
+      url: "http://crossroad123.netlify.app",
+    },
+  ],
+  //   "testimonials":[
+  //     {
+  //       "description":"This is a sample testimonial",
+  //       "name":"Some technical guy"
+  //     },
+  //     {
+  //       "description":"This is a sample testimonial",
+  //       "name":"Some technical guy"
+  //     }
+  //   ]
+};
+
+export default resumeData;

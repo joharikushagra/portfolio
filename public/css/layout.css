@@ -30,10 +30,11 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 200px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   /* opacity: .8; */
+   background: #161415 url(../images/remy_loz-3vVzdb8KKIw-unsplash.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,7 +53,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -207,10 +208,12 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 220px;
    border-radius: 100%;
+   box-shadow: 0px 1px 15px 5px black;
 }
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -317,6 +320,7 @@ ul#nav li.current a { color: #F06000; }
    top: 0;
 
    margin: 0;
+   /* width:50%; */
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
@@ -326,84 +330,97 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 75%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 65%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.reactjs {
+  	width: 70%;
+  	-moz-animation: reactjs 2s ease;
+  	-webkit-animation:reactjs 2s ease;
 }
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+.javascript {
+  	width: 70%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascripts 2s ease;
 }
-.html5 {
+.c {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: c 2s ease;
+  	-webkit-animation: c 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.xd {
+  	width: 75%;
+  	-moz-animation: xd 2s ease;
+  	-webkit-animation: xd 2s ease;
+}
+.python{
+   width:55%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
 }
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 65%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 70%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes xd {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes python{
+   0% {width:0px;}
+   100% {width:55%}
 }
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 65%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
+@-webkit-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes xd {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes python{
+   0% {width:0px;}
+   100% {width:55%}
 }
 
 /* ------------------------------------------------------------------ */
