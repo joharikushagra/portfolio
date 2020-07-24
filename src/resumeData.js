@@ -24,7 +24,7 @@ let resumeData = {
     // }
   ],
   aboutme:
-    "I am currently a second year student at Indian Institute of Information Technology Una(H.P) and pursuing my B.Tech from here. I am a self taught Full Stack Web and UI Developer, currently diving deeper into it. I believe that to be learn something new, it is all about the first step you dare to take and after that you are carried by its flow",
+    "I am currently a second year student at Indian Institute of Information Technology Una(H.P) and pursuing my B.Tech from here. I am a self taught Full Stack Web and UI Developer, currently diving deeper into it. I believe that to be learn something new, it is all about the first step you dare to take and then you are driven by the challenges it offers.",
   address: "India",
   contact: "Contact- 7668987397",
   email: "Email - skjkushagra1309@gmail.com",
