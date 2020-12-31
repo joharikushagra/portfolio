@@ -98,8 +98,8 @@ let resumeData = {
     },
     {
       name: "Project3",
-      description: "Score-keeper React",
-      url: "https://score-keeperapp.netlify.app",
+      description: "Result-portal",
+      url: "https://iiitu-results.herokuapp.com/",
     },
     {
       name: "Project4",
